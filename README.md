@@ -22,7 +22,7 @@ I broke the 9 months of data into three phases and compared everything across th
 - **Crisis** — June to July 2025 (impact period)
 - **Recovery** — August to September 2025 (intervention period)
 
-I used Python for data cleaning and analysis, MySQL for business queries, and Power BI for the dashboard. The analysis covered orders, revenue, delivery performance, customer behavior, ratings, sentiment, and restaurant partnerships.
+I used Python for data cleaning and analysis, SQL SERVER for business queries, and Power BI for the dashboard. The analysis covered orders, revenue, delivery performance, customer behavior, ratings, sentiment, and restaurant partnerships.
 
 One data quality issue I flagged upfront: 3.4% of orders had customer IDs that didn't match the customer dimension table. These were excluded from city-level and demographic analysis. Also, the dataset has 19,995 restaurants spread across 9 months, so the maximum pre-crisis orders for any single restaurant was 21 — the original 50-order threshold from the problem statement was not applicable to this data, so I adjusted it to 10.
 
